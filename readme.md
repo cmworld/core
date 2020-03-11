@@ -1,4 +1,10 @@
+# CinelarTV Core
 
-## About Laravel
+![cinelartv_logo](https://i.ibb.co/9NSGHHb/cinelartv-dark.png)
 
-CienmaRex is project for streaming service, this version it's for codecanyon ANKI 
+
+
+CinelarTV Core es el corazón del ecosistema Cinelar, en este repositorio se encuentran
+  - Código Base del Back-end/Front-end Web + API
+  - Script de instalación en el Servidor
+  - Claves AES del Cliente Android
