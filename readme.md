@@ -1,4 +1,4 @@
-# CinelarTV Core
+# CinelarTV Core 
 
 ![cinelartv_logo](https://i.ibb.co/9NSGHHb/cinelartv-dark.png)
 
