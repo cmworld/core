@@ -9,7 +9,7 @@ const messages = {
     /* English language
      *****************/
     en: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
         nav: {
             logout: "Logout"
         },
@@ -205,7 +205,7 @@ const messages = {
     /* France language
      *****************/
     fr: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
 
         nav: {
             logout: "Déconnexion"
@@ -402,7 +402,7 @@ const messages = {
     /* Turkish Language
      *****************/
     tr: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
 
         nav: {
             logout: "Çıkış Yap"
@@ -593,7 +593,7 @@ const messages = {
     /* Germany language
      *****************/
     de: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
 
         nav: {
             logout: "Ausloggen"
@@ -787,7 +787,7 @@ const messages = {
     /* Hindi language
      *****************/
     in: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
 
         nav: {
             logout: "लोग आउट"
@@ -979,7 +979,7 @@ const messages = {
     /* Spanish language
      *****************/
     es: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
 
         nav: {
             logout: "Cerrar sesión"
@@ -1170,7 +1170,7 @@ const messages = {
     /* Swedish language
      *****************/
     sw: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
         nav: {
             logout: "Logga ut"
         },
@@ -1359,7 +1359,7 @@ const messages = {
     /* Arabic language
         *****************/
     ar: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
         nav: {
             logout: "تسجيل خروج"
         },
@@ -1547,7 +1547,7 @@ const messages = {
     /* English language
      *****************/
     he: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
         nav: {
             logout: "להתנתק"
         },
@@ -1741,7 +1741,7 @@ const messages = {
     /* Japanese language
         *****************/
     ja: {
-        app_name: 'CinemaRex',
+        app_name: 'CinelarTV',
         nav: {
             logout: "ログアウト"
         },
@@ -1936,6 +1936,6 @@ const messages = {
 };
 // Create VueI18n instance with options
 export default new VueI18n({
-    locale: "en", // set locale
+    locale: "es", // set locale
     messages, // set locale messages
 })
