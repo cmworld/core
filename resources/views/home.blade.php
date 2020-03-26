@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
-        <meta name="theme-color" content="#db5945">
+        <meta name="theme-color" content="#181818">
         <meta name="description" content="Watch movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more. Start your free trial today.">
         <link rel="manifest" href="manifest.json">
         <link rel="icon" sizes="192x192" href="/images/logo.png">
