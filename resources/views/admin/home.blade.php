@@ -20,6 +20,13 @@
     display: flex;
 }
 
+#side-navbar #content a strong, #side-navbar .c-dropdown .ref-dropdown strong {
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+
         </style>
   </head>
   <body class="admin">
