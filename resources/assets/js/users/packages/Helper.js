@@ -13,8 +13,9 @@ export default function (Vue) {
         set_caption(caption) {
             localStorage.setItem('caption', caption);
         },
+        //Client ID 2 secret
         client_secret() {
-            return 'jRaWByH3lOfsLbcwriPn68KzoM9i5lokxex1UtG1';
+            return 'INSERT_CLIENT_HERE';
         },
         // braintree sandbox/production key
         sandbox_key() {
