@@ -13382,7 +13382,8 @@ button.vjs-control.vjs-button.icon-vidoejs-exit {
 }
 
 .navbar-content .nav-md .bg-inverse .navbar-brand {
-  width: 80px;
+    width: 200px;
+    filter: brightness(4.5);
 }
 
 .navbar-content .nav-md .bg-inverse .navbar-nav a {
