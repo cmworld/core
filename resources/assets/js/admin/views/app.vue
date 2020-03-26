@@ -217,7 +217,7 @@
                         <ul class="list-unstyled" id="list-menu">
                             <li>
                                 <router-link :to="{name:'dashboard'}">
-                                    <img src="/themes/default/img/admin/dashboard.svg" alt="dashboard" width="23px">
+                                    <i class="material-icons-outlined">dashboard</i>
                                     <strong>Dashboard</strong>
                                 </router-link>
                             </li>

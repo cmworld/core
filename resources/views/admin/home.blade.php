@@ -16,6 +16,10 @@
   color: #828a9f;
 }
 
+#side-navbar #content a {
+    display: flex;
+}
+
         </style>
   </head>
   <body class="admin">
