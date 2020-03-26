@@ -8,8 +8,10 @@
         <meta name="theme-color" content="#181818">
         <meta name="description" content="Watch movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more. Start your free trial today.">
         <link rel="manifest" href="manifest.json">
-        <link rel="icon" sizes="192x192" href="/images/logo.png">
+        <link rel="icon" sizes="192x192" href="/images/icons/icon-192x192.png">
         <link rel="stylesheet" href="/css/app.css">
+		<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css">
+
         <script src="/jwplayer.flash.swf"></script>
         <script src="https://cdn.jwplayer.com/libraries/WZXrllaM.js"></script>
     </head>
