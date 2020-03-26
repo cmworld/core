@@ -5,8 +5,18 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link rel="stylesheet" href="/css/admin/main.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+          
+.material-icons-outlined {
+  color: #828a9f;
+}
+
+        </style>
   </head>
   <body class="admin">
     @if (! Auth::guest())
