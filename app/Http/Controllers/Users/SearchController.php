@@ -40,7 +40,7 @@ class SearchController extends Controller
         // Regex accept letters-number-spaces
 
         $request->validate([
-            'query' => 'nullable|max:30|regex:/^[\w\s.,-]*$/',
+            'query' => 'nullable|max:30',
          ]);
 
         // Get movie and series
