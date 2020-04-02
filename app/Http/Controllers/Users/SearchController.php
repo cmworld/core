@@ -73,7 +73,7 @@ class SearchController extends Controller
                       LEFT JOIN collection_lists AS u1  ON u1.movie_id = movies.m_id AND u1.uid = "' .Auth::id(). '"
                       LEFT JOIN recently_watcheds AS u2 ON u2.movie_id = movies.m_id AND u2.uid = "' .Auth::id(). '"
                       LEFT JOIN likes AS u3  ON u3.movie_id = movies.m_id AND u3.uid = "' .Auth::id(). '"
-                      WHERE movies.m_name LIKE "'. $request->input('query') .'%"
+                      WHERE movies.m_name LIKE "%'. $request->input('query') .'%"
                       GROUP BY movies.m_id DESC)
                       UNION
                       (SELECT
@@ -108,7 +108,7 @@ class SearchController extends Controller
                       LEFT JOIN recently_watcheds AS u2 ON u2.series_id = series.t_id AND u2.uid = "' .Auth::id(). '"
                       LEFT JOIN likes AS u3  ON u3.series_id = series.t_id AND u3.uid = "' .Auth::id(). '"
                       LEFT JOIN episodes AS u4 ON u4.series_id = series.t_id AND u4.show = 1
-                      WHERE series.t_name LIKE "'. $request->input('query') .'%"
+                      WHERE series.t_name LIKE "%'. $request->input('query') .'%"
                       GROUP BY series.t_id DESC
                       ) LIMIT 8');
 
