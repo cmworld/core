@@ -125,6 +125,7 @@ class SearchController extends Controller
 
         // Check if cast array is empty
 
+
         if ($getCast->isEmpty()) {
             $getCast = null;
         }
