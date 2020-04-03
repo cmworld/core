@@ -474,7 +474,7 @@
                         <div class="sec2" v-if="$auth.isAuthenticated() === 'active'">
 
                             <router-link class="username" :to="{name: 'profile'}">
-                                {{$auth.getUserInfo("username") | truncate(5)}}
+                                {{$auth.getUserInfo("username")}}
                             </router-link>
                         </div>
 
