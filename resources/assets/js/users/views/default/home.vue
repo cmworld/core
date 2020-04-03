@@ -186,7 +186,7 @@
                                 <router-link :to="{name: 'privacy'}">Privacy Policy</router-link>
                             </li>
 
-                            <li class="mt-md-3">© 2018 {{$t('app_name')}}</li>
+                            <li class="mt-md-3">© 2020 {{$t('app_name')}}</li>
                         </ul>
                     </div>
                 </footer>
