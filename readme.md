@@ -2,7 +2,7 @@
 
 ![cinelartv_logo](https://i.ibb.co/9NSGHHb/cinelartv-dark.png)
 
+## Installation instructions are in the Open Source Development category in CinelarTV Community
 
 
-CinelarTV Core es el corazón del ecosistema Cinelar, en este repositorio se encuentran
-  - Código Base del Back-end/Front-end Web + API
+https://cinelartv.discourse.group/t/how-to-install-cinelartv-in-local-environment/75
